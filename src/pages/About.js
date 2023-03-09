@@ -4,11 +4,11 @@ export default function About() {
       <h1>About Me</h1>
       <div className="row about-content">
         <div class="col img-container">
-          {/* <img
+          <img
             className="img-fluid mx-auto d-block img-container"
             src={require("../assets/images/books.jpg")}
             alt="Osman Dumbuya"
-          /> */}
+          />
         </div>
         <div class="col about-description description">
           <p>
