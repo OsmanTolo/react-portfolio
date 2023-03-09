@@ -1,25 +1,39 @@
-import logo from './logo.svg';
-import './App.css';
+/** ROOT APP COMPONENT */
+import {
+  createBrowserRouter,
+  Route,
+  createRoutesFromElements,
+  RouterProvider,
+} from "react-router-dom";
 
-function App() {
+// Pages
+import Home from "./pages/Home";
+import About from "./pages/About";
+import Projects from "./pages/Projects";
+import Contact from "./pages/Contact";
+// import NotFound from "./pages/NotFound";
+
+// Layouts
+import RootLayout from "./layouts/RootLayout";
+
+// Router function
+const router = createBrowserRouter(
+  createRoutesFromElements(
+    <Route path="/" element={<RootLayout />}>
+      <Route index element={<Home />} />
+      <Route path="about" element={<About />} />
+      <Route path="projects" element={<Projects />} />
+      <Route path="contact" element={<Contact />} />
+
+      {/* Custom 404 error page */}
+      {/* <Route path="*" element={NotFound} /> */}
+    </Route>
+  )
+);
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // Router provider providing the router created from the CreateBrowserRouter function
+    <RouterProvider router={router} />
   );
 }
-
-export default App;
