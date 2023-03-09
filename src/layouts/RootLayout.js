@@ -1,5 +1,5 @@
 import { NavLink, Outlet } from "react-router-dom";
-// import Footer from "../pages/Footer";
+import Footer from "../pages/Footer";
 
 export default function RootLayout() {
   return (
@@ -21,9 +21,9 @@ export default function RootLayout() {
         {/* Renders the main page contents */}
         <Outlet />
       </main>
-      {/* <footer>
+      <footer>
         <Footer />
-      </footer> */}
+      </footer>
     </div>
   );
 }
