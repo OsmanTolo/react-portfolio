@@ -4,7 +4,7 @@
   <p align="center">
     Refreshed portfolio page built and designed by Osman Dumbuya using ReactJS with Bootstrap.
     <br />
-    <a href="https://osmantolo.github.io/portfolio-reactjs/">View the demo</a>
+    <a href="https://coruscating-tartufo-ad7495.netlify.app/projects">View the demo</a>
   </p>
 </div>
 
