@@ -5,7 +5,7 @@
     "description": "A command-line application that dynamically generates a professional README.md file based on user input.",
     "deployedLink": "https://osmantolo.github.io/readme_generator-node-js/",
     "repoLink": "https://github.com/OsmanTolo/readme_generator-node-js",
-    "screenshotPath": "https://github.com/OsmanTolo/react-portfolio/blob/main/src/assets/images/custom-readme.jpg?raw=true"
+    "screenshotPath": "https://github.com/OsmanTolo/react-portfolio/blob/main/src/assets/images/custom-project.jpg?raw=true"
   },
   {
     "id": 2,
@@ -29,7 +29,7 @@
     "description": "A simple calendar application that allows a user to save events for each hour of the day.",
     "deployedLink": "https://osmantolo.github.io/daily_planner-apis-jquery/",
     "repoLink": "https://github.com/OsmanTolo/daily_planner-apis-jquery",
-    "screenshotPath": "./images/readme-generator.jpg"
+    "screenshotPath": "https://github.com/OsmanTolo/react-portfolio/blob/main/src/assets/images/daily-planner-unsplash.jpg?raw=true"
   },
   {
     "id": 5,
