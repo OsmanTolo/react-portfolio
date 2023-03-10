@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/react-portfolio/static/css/main.5c82a4d6.css",
+    "main.js": "/react-portfolio/static/js/main.22f64ea6.js",
+    "static/media/books.jpg": "/react-portfolio/static/media/books.751f545a5904fbb3b54c.jpg",
+    "static/media/osman-cropped-no-bg.png": "/react-portfolio/static/media/osman-cropped-no-bg.b61ca9bd7b203f0af27d.png",
+    "index.html": "/react-portfolio/index.html",
+    "main.5c82a4d6.css.map": "/react-portfolio/static/css/main.5c82a4d6.css.map",
+    "main.22f64ea6.js.map": "/react-portfolio/static/js/main.22f64ea6.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5c82a4d6.css",
+    "static/js/main.22f64ea6.js"
+  ]
+}
