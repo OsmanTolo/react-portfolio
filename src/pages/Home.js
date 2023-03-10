@@ -13,7 +13,10 @@ export default function Home() {
               living in Bristol. I enjoy crafting beautiful and accessible
               software that work well for everyone on the web.
             </p>
-            <a href="/src/assets/osman-dumbuya-cv.pdf" download>
+            <a
+              href="https://github.com/OsmanTolo/react-portfolio/raw/main/src/assets/osman-dumbuya-cv.pdf"
+              download
+            >
               <button className="primary-btn">
                 <i className="fa fa-download"></i> Resume
               </button>
